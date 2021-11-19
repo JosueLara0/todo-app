@@ -2,11 +2,11 @@
 import Home from "./Views/Home";
 
 function App() {
-    return (
-        <>
-            <Home/>
-        </>
-    );
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
