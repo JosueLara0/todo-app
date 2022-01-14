@@ -27,13 +27,13 @@ const AddTodo = ({ todos, dispatch }) => {
           type="text"
           value={name}
           placeholder="Enter your task"
-          className="h-10 w-64 text-black focus:outline-none focus:ring-2 focus:ring-yellow"
+          className="h-10 w-40 sm:w-64 text-black focus:outline-none focus:ring-2 focus:ring-yellow"
           onChange={(e) => setName(e.target.value)}
         />
       </form>
       <button
         onClick={handleAddTodo}
-        className="bg-yellow w-2/12  hover:text-black"
+        className="bg-yellow px-2 sm:px-6 hover:text-black"
       >
         Add +
       </button>

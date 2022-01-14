@@ -34,12 +34,12 @@ const TodoItem = ({
   };
 
   return (
-    <div className="flex justify-between w-full mt-4 border-b-2 border-blue2 p-2 text-black">
+    <div className="flex justify-between w-full mt-4 border-b-2 border-blue2 p-2 text-black text-xs sm:text-lg">
       <div className="flex overflow-auto">
         {status === "deleted" ? (
           <button onClick={handleRecycleTodos}>
             <img
-              className="h-10 opacity-40 hover:opacity-100"
+              className="h-5 sm:h-10 opacity-40 hover:opacity-100"
               src={arrowUndoButton}
               alt="Toggle"
             />
@@ -53,7 +53,7 @@ const TodoItem = ({
             <img
               className={`${
                 todo.complete ? "opacity-40" : "opacity-100"
-              } h-10 hover:opacity-100`}
+              } h-5 sm:h-10 hover:opacity-100`}
               src={checkboxButton}
               alt=""
             />
@@ -69,7 +69,7 @@ const TodoItem = ({
       </div>
       <button onClick={handleDeletedTodos}>
         <img
-          className="h-10 opacity-40 hover:opacity-100"
+          className="h-5 sm:h-10 opacity-40 hover:opacity-100"
           src={deleteButton}
           alt="Delete"
         />
