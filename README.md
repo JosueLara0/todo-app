@@ -7,7 +7,7 @@ Includes:
 1.  Page that allows create, delete and recover tasks.
 2.  Filter to sort tasks by all, completed, uncompleted and deleted tasks.
 
-# DEPLOYMENT
+# Deployment
 
 VERCEL: 
 
