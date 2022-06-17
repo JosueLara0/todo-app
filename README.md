@@ -26,8 +26,7 @@ Mobile version:
 ## Libraries
 
 1.  [REACT](https://en.reactjs.org/)
-2.  [REACT ROUTER](https://reactrouter.com/)
-3.  [TAILWIND CSS](https://tailwindcss.com/docs/guides/create-react-app)
+2.  [TAILWIND CSS](https://tailwindcss.com/docs/guides/create-react-app)
 
 ## Install and run project
 
